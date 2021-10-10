@@ -3,7 +3,8 @@ author: Kevin Huang
 tags:
   - 看動畫學英文
 categories:
-  - 看動畫學英文-nekopara
+  - 看動畫學英文
+  - nekopara
 date: 2021-10-10 18:42:00
 ---
 wiggle  
