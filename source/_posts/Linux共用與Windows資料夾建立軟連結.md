@@ -1,8 +1,8 @@
 title: Linux共用與Windows資料夾建立軟連結
 author: Kevin Huang
+categories:
+  - Devops
 date: 2018-10-10 22:07:21
-categories: 
-    - "Devops"
 tags:
 ---
 # [筆記] Linux共用與Windows資料夾建立軟連結
@@ -48,7 +48,7 @@ VM: VituralBox 6.0.2r2 -CentOS
 跟著筆者試試下面的方法:  
 開啟 windows 的 執行 輸入 secpol 開啟以下畫面  
 
-![Alt text]( 07481bf27739f6f4d6c323465d3c56e0-1.png )
+{% asset_img 07481bf27739f6f4d6c323465d3c56e0-1.png %}
 
 本機原則->使用者權限指派->建立符號連結  
 將自己目前的使用者加入 進去重新開機後  
@@ -58,4 +58,4 @@ VM: VituralBox 6.0.2r2 -CentOS
 
 完成後 yarn/npm就能順利install專案了  
 
-![Alt text]( 07481bf27739f6f4d6c323465d3c56e0-2.png )
+{% asset_img 07481bf27739f6f4d6c323465d3c56e0-2.png %}
